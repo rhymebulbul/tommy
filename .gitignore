@@ -23,6 +23,8 @@
 hs_err_pid*
 replay_pid*
 
-.idea
+.idea/
 .mvn
 .DS_Store
+
+target/

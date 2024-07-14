@@ -13,10 +13,11 @@ public class HelloResource {
     public String hello() {
         return "Hello, World!";
     }
+
     @POST
     @Path("/{name}")
     @Produces("text/plain")
     public String customWelcome(@PathParam("name") String name) {
-           return "Welcome " + name + "!";
+        return "Welcome " + name + "!";
     }
 }
