@@ -25,7 +25,6 @@ replay_pid*
 
 # Cache
 .idea/
-.mvn
 .DS_Store
 
 # Build output
